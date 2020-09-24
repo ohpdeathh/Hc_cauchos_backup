@@ -80,7 +80,7 @@
                                     <asp:BoundField DataField="Total" HeaderText="Total" SortExpression="Total" />
                                 </Columns>
                             </asp:GridView>
-                            <asp:ObjectDataSource ID="ODS_Elementos" runat="server" SelectMethod="ObtenerProductos" TypeName="DAOUser">
+                            <asp:ObjectDataSource ID="ODS_Elementos" runat="server" SelectMethod="ObtenerProductos" TypeName="LogicaNegocio.LUsuario">
                                 <SelectParameters>
                                     <asp:ControlParameter ControlID="Label1" Name="id" PropertyName="Text" Type="Int32" />
                                 </SelectParameters>

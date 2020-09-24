@@ -59,7 +59,7 @@
                         <EditItemTemplate>
                             <asp:DropDownList ID="DDL_roles" runat="server" DataSourceID="ODS_obtenerRoles" DataTextField="Nombre" DataValueField="Id" SelectedValue='<%# Bind("Rol_id") %>'>
                             </asp:DropDownList>
-                            <asp:ObjectDataSource ID="ODS_obtenerRoles" runat="server" SelectMethod="ObtenerRoles" TypeName="DAOAdmin"></asp:ObjectDataSource>
+                            <asp:ObjectDataSource ID="ODS_obtenerRoles" runat="server" SelectMethod="ObtenerRoles" TypeName="LogicaNegocio.LAdministrador"></asp:ObjectDataSource>
                         </EditItemTemplate>
                        
                         <ItemTemplate>
@@ -71,7 +71,7 @@
                         <EditItemTemplate>
                             <asp:DropDownList ID="DDL_estados" runat="server" DataSourceID="ODS_obtenerEstados" DataTextField="Nombre" DataValueField="Id" SelectedValue='<%# Bind("Estado_id") %>'>
                             </asp:DropDownList>
-                            <asp:ObjectDataSource ID="ODS_obtenerEstados" runat="server" SelectMethod="ObtenerEstados" TypeName="DAOAdmin"></asp:ObjectDataSource>
+                            <asp:ObjectDataSource ID="ODS_obtenerEstados" runat="server" SelectMethod="ObtenerEstados" TypeName="LogicaNegocio.LAdministrador"></asp:ObjectDataSource>
                         </EditItemTemplate>
                         <ItemTemplate>
                             <asp:Label ID="Label2" runat="server" Text='<%# Bind("EstadoNombre") %>'></asp:Label>

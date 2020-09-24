@@ -237,6 +237,27 @@ namespace LogicaNegocio
             var categoria = new DAOAdmin().BuscarMarcaCategoria(marca, catego);
             return categoria;
         }
+        public List<UEncapRol> ObtenerRoles()
+        {
+            var roles = new DAOAdmin().ObtenerRoles();
+            return roles;
+        }
+        public List<UEncapEstado> ObtenerEstados()
+        {
+            var estados = new DAOAdmin().ObtenerEstados();
+            return estados;
+        }
+        public IList<UEncapCategoria> ColsultarCategoria2()
+        {
+            var categoria = new DAOAdmin().ColsultarCategoria2();
+            return categoria;
+        }
+
+        public IList<UEncapEstadoItem> ColsultarEstado()
+        {
+            var estado = new DAOAdmin().ColsultarEstado();
+            return estado;
+        }
 
 
 

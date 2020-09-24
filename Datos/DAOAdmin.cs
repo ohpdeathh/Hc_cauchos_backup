@@ -1043,5 +1043,41 @@ namespace Datos
             }
         }
 
+        //METODO PARA OBTENER LOS ROLES DEL EMPLEADO
+        public List<UEncapRol> ObtenerRoles()
+        {
+            using (var db = new Mapeo())
+            {
+                return db.rol.ToList();
+            }
+        }
+
+        //METODO PARA OBTENER LOS ESTADOS DE LOS USUARIOS 
+        public List<UEncapEstado> ObtenerEstados()
+        {
+            using (var db = new Mapeo())
+            {
+                return db.estado.ToList();
+            }
+        }
+
+        public List<UEncapCategoria> ColsultarCategoria2()
+        {
+            using (var db = new Mapeo())
+            {
+                return db.categoria.OrderBy(x => x.Id >= 1).ToList();
+            }
+        }
+
+        //METODO CONSULTAR ESTADO DE INVENTARIO 
+        public List<UEncapEstadoItem> ColsultarEstado()
+        {
+            using (var db = new Mapeo())
+            {
+                return db.estado_item.ToList();
+            }
+        }
+
+
     }
 }

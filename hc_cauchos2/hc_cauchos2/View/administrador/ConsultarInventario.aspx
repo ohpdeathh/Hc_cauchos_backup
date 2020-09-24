@@ -109,7 +109,7 @@
                         <EditItemTemplate>
                             <asp:DropDownList ID="DDL_marca" runat="server" DataSourceID="ODS_Marca" DataTextField="Marca" DataValueField="Id" SelectedValue='<%# Bind("Id_marca") %>'>
                             </asp:DropDownList>
-                            <asp:ObjectDataSource ID="ODS_Marca" runat="server" SelectMethod="ColsultarMarca2" TypeName="DAOAdmin"></asp:ObjectDataSource>
+                            <asp:ObjectDataSource ID="ODS_Marca" runat="server" SelectMethod="ConsultarMarca" TypeName="LogicaNegocio.LAdministrador"></asp:ObjectDataSource>
                         </EditItemTemplate>
                         <ItemTemplate>
                             <asp:Label ID="Label1" runat="server" Text='<%# Bind("Nombre_marca") %>'></asp:Label>
@@ -119,7 +119,7 @@
                         <EditItemTemplate>
                             <asp:DropDownList ID="DDL_categoria" runat="server" DataSourceID="ODS_Categoria" DataTextField="Categoria" DataValueField="Id" SelectedValue='<%# Bind("Id_categoria") %>'>
                             </asp:DropDownList>
-                            <asp:ObjectDataSource ID="ODS_Categoria" runat="server" SelectMethod="ColsultarCategoria2" TypeName="DAOAdmin"></asp:ObjectDataSource>
+                            <asp:ObjectDataSource ID="ODS_Categoria" runat="server" SelectMethod="ColsultarCategoria2" TypeName="LogicaNegocio.LAdministrador"></asp:ObjectDataSource>
                         </EditItemTemplate>
                         <ItemTemplate>
                             <asp:Label ID="Label2" runat="server" Text='<%# Bind("Nombre_categoria") %>'></asp:Label>
@@ -129,7 +129,7 @@
                         <EditItemTemplate>
                             <asp:DropDownList ID="DDL_estado" runat="server" DataSourceID="ODS_Estado" DataTextField="Estado_item" DataValueField="Id" SelectedValue='<%# Bind("Id_estado") %>'>
                             </asp:DropDownList>
-                            <asp:ObjectDataSource ID="ODS_Estado" runat="server" SelectMethod="ColsultarEstado" TypeName="DAOAdmin"></asp:ObjectDataSource>
+                            <asp:ObjectDataSource ID="ODS_Estado" runat="server" SelectMethod="ColsultarEstado" TypeName="LogicaNegocio.LAdministrador"></asp:ObjectDataSource>
                         </EditItemTemplate>
                         <ItemTemplate>
                             <asp:Label ID="Label3" runat="server" Text='<%# Bind("Estado") %>'></asp:Label>

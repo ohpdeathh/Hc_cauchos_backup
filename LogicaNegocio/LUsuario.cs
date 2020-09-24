@@ -129,6 +129,13 @@ namespace LogicaNegocio
         {
             return new DaoUsuario().ObtenerPedidosFin(usu);
         }
+
+        public List<UEncapProducto_pedido> ObtenerProductos(int id)
+        {
+            return new DaoUsuario().ObtenerProductos(id);
+        }
+
+
     }
 
 }

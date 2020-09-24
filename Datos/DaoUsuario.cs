@@ -791,6 +791,30 @@ namespace Datos
 
         }
 
+        //METODO pARA OBTENER pRODUCTOS DEL pEDIDO
+        public List<UEncapProducto_pedido> ObtenerProductos(int id)
+        {
+            using (var db = new Mapeo())
+            {
+                return (from uu in db.productos.Where(x => x.Pedido_id == id)
+
+
+                        select new
+                        {
+                            uu
+                        }).ToList().Select(x => new UEncapProducto_pedido
+                        {
+                            Pedido_id = x.uu.Pedido_id,
+                            Producto_id = x.uu.Producto_id,
+                            Cantidad = x.uu.Cantidad,
+                            Precio = x.uu.Precio,
+                            Total = x.uu.Total
+                        }
+
+                        ).ToList();
+            }
+        }
+
     }
 
 }
