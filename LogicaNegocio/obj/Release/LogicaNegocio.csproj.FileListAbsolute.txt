@@ -1,0 +1,17 @@
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\LogicaNegocio.dll.config
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\LogicaNegocio.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\Datos.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\Newtonsoft.Json.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\EntityFramework.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\Datos.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\Datos.dll.config
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\Newtonsoft.Json.xml
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\bin\Release\EntityFramework.xml
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.csprojAssemblyReference.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.csproj.CopyComplete
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.pdb

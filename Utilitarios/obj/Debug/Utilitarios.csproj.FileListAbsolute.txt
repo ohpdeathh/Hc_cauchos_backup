@@ -1,0 +1,50 @@
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS2\Utilitarios\bin\Debug\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS2\Utilitarios\bin\Debug\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS2\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS2\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS2\Utilitarios\obj\Debug\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS2\Utilitarios\obj\Debug\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\bin\Debug\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\bin\Debug\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\bin\Debug\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\bin\Debug\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\obj\Debug\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\obj\Debug\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\bin\Debug\Newtonsoft.Json.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\HC_CAUCHOS_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\bin\Debug\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\bin\Debug\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_cauchos2\Utilitarios\obj\Debug\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\bin\Debug\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\bin\Debug\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\bin\Debug\Newtonsoft.Json.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\back-up_cauchos\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Debug\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Debug\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Debug\Utilitarios.pdb

@@ -1,0 +1,9 @@
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Release\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Release\Utilitarios.pdb
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Release\Newtonsoft.Json.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\bin\Release\Newtonsoft.Json.xml
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.csprojAssemblyReference.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.csproj.CopyComplete
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.dll
+C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.pdb
