@@ -11,6 +11,17 @@ public partial class View_domiciliario_entregas : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        UEncapUsuario usuario = new UEncapUsuario();
+        usuario = new LLogin().usuarioActivo2((string)Session["correo"]);
+
+        if (usuario == null || Session["Valido"] == null)
+        {
+            Response.Redirect("../home.aspx");
+        }
+        if (usuario.Rol_id != 3)
+        {
+            Response.Redirect("../home.aspx");
+        }
 
         //obtengo el id del domiciliario y lo almaceno en una session
         int id_domiciliario = ((UEncapUsuario)Session["Valido"]).User_id;

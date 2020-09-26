@@ -1,6 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/empleado/empleado.master" AutoEventWireup="true" CodeFile="~/Controller/usuario/pedidos_estados.aspx.cs" Inherits="View_usuario_pedidos_estados" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/usuario/usuario.master" AutoEventWireup="true" CodeFile="~/Controller/usuario/pedidos_estados.aspx.cs" Inherits="View_usuario_pedidos_estados" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+        <style type="text/css">
+        #carta:hover{
+            background:rgba(0, 148, 255,0.4);
+            color:black;
+            border:solid 1px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h1 class="text-center text-primary"><strong>PEDIDOS ACTIVOS</strong></h1>

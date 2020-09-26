@@ -110,7 +110,7 @@
 
 
             <li>
-              <a href="pedidos_atender.aspx">
+              <a href="pedidosatender.aspx">
                 <i class="fa fa-th"></i> <span>Alistamiento</span> <small class="label pull-right bg-green"> <asp:Label ID="LB_pedidos" runat="server" Text=""></asp:Label> </small>
               </a>
             </li>                      

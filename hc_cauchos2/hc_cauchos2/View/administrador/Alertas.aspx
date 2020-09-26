@@ -18,7 +18,9 @@
                          <h3 class="card-title"><%# Eval("Titulo") %></h3>
                         <p class="card-text">El producto con referencia <%# Eval("Referencia") %> se encuentra menor a su cantidad minima <%# Eval("Ca_minima") %> </p>
                         <p class="card-text">Cantidad Actual:<%# Eval("Ca_actual") %></p>
+                      <!--
                         <asp:Button ID="Button1" runat="server" Text="Abastecer" CssClass="btn btn-primary" />  
+                      -->
                   </div>
                 </div>                   
             </ItemTemplate>            

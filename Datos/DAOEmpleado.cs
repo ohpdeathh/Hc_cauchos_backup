@@ -859,5 +859,13 @@ namespace Datos
                         }).ToList();
         }
 
+        public List<UEncapMunicipio> ConsultarMunicipio()
+        {
+            using (var db = new Mapeo())
+            {
+                return db.municipios.OrderBy(x => x.Id).ToList();
+            }
+        }
+
     }
 }

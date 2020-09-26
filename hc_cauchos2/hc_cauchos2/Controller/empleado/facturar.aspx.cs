@@ -11,6 +11,17 @@ public partial class View_empleado_facturar : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        UEncapUsuario usuarioo = new UEncapUsuario();
+        usuarioo = new LLogin().usuarioActivo2((string)Session["correo"]);
+
+        if (usuarioo == null || Session["Valido"] == null)
+        {
+            Response.Redirect("../home.aspx");
+        }
+        if (usuarioo.Rol_id != 2)
+        {
+            Response.Redirect("../home.aspx");
+        }
         //obtengo el usuario que esta en session en el momento 
         int iduser = ((UEncapUsuario)Session["Valido"]).User_id;
         Session["userid"] = iduser;

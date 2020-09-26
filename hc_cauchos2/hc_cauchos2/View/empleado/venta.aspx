@@ -110,7 +110,9 @@
             </div>
         </div>
     </div>
+    <!--
     <asp:ImageButton ID="BTN_Facturar" runat="server" ImageUrl="~/ima/business-and-finance(1).png" OnClick="BTN_Facturar_Click" />
+    -->
     <br />
     &nbsp;&nbsp;&nbsp;
     <asp:Label ID="LB_facturar" runat="server" Text="Facturar"></asp:Label>

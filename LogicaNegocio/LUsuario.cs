@@ -135,6 +135,11 @@ namespace LogicaNegocio
             return new DaoUsuario().ObtenerProductos(id);
         }
 
+        public void ActualizarCarritoFactura(UEncapCarrito carrito)
+        {
+             new DaoUsuario().ActualizarCarritoFactura(carrito);
+        }
+
 
     }
 

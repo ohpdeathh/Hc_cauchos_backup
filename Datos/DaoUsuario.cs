@@ -815,6 +815,21 @@ namespace Datos
             }
         }
 
+        //ACTUALIZAR DATO DEL PRODUCTO EN EL CARRITO 
+        public void ActualizarCarritoFactura(UEncapCarrito carrito)
+        {
+            using (var db = new Mapeo())
+            {
+                UEncapCarrito carritoedit = db.carrito.Where(x => x.Id_Carrito == carrito.Id_Carrito).SingleOrDefault();
+                carritoedit.Cantidad = carrito.Cantidad;
+                carritoedit.Precio = carrito.Precio;
+                carritoedit.Cant_Actual = (carritoedit.Cant_Actual - carritoedit.Cantidad).Value;
+                carritoedit.Total = (carritoedit.Cantidad * carritoedit.Precio).Value;
+
+                db.SaveChanges();
+            }
+        }
+
     }
 
 }

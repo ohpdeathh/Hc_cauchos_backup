@@ -50,7 +50,7 @@
                      </EmptyDataTemplate>
                  </asp:GridView>
                  
-                 <asp:ObjectDataSource ID="ODS_carrito" runat="server" DataObjectTypeName="EncapCarrito" SelectMethod="ObtenerCarritoxUsuario" TypeName="DAOUser" UpdateMethod="ActualizarCarritoFactura" DeleteMethod="EliminarItemCarrito">
+                 <asp:ObjectDataSource ID="ODS_carrito" runat="server" DataObjectTypeName="Utilitarios.UEncapCarrito" SelectMethod="ObtenerCarritoxUsuario" TypeName="LogicaNegocio.LUsuario" UpdateMethod="ActualizarCarritoFactura">
                      <SelectParameters>
                          <asp:SessionParameter Name="usu" SessionField="userid" Type="Int32" />
                      </SelectParameters>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-          <asp:ObjectDataSource ID="ODS_Municipio" runat="server" SelectMethod="ConsultarMunicipio" TypeName="DAOEmpleado">
+          <asp:ObjectDataSource ID="ODS_Municipio" runat="server" SelectMethod="ConsultarMunicipio" TypeName="LogicaNegocio.LEmpleado">
                 </asp:ObjectDataSource>  
 
     <div class="col-sm-12">

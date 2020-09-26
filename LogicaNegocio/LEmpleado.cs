@@ -194,5 +194,9 @@ namespace LogicaNegocio
         {
             return new DAOEmpleado().ObtenerPedidos(user);
         }
+        public List<UEncapMunicipio> ConsultarMunicipio()
+        {
+            return new DAOEmpleado().ConsultarMunicipio();
+        }
     }
 }

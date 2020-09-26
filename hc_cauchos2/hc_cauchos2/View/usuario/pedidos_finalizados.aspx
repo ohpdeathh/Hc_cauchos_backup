@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/empleado/empleado.master" AutoEventWireup="true" CodeFile="~/Controller/usuario/pedidos_finalizados.aspx.cs" Inherits="View_usuario_pedidos_finalizados" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/usuario/usuario.master" AutoEventWireup="true" CodeFile="~/Controller/usuario/pedidos_finalizados.aspx.cs" Inherits="View_usuario_pedidos_finalizados" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

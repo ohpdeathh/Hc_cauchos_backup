@@ -11,6 +11,18 @@ public partial class View_domiciliario_configurarDomici : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        UEncapUsuario usuario = new UEncapUsuario();
+        usuario = new LLogin().usuarioActivo2((string)Session["correo"]);
+
+        if (usuario == null || Session["Valido"] == null)
+        {
+            Response.Redirect("../home.aspx");
+        }
+        if (usuario.Rol_id != 3)
+        {
+            Response.Redirect("../home.aspx");
+        }
+
         //inicio componentes de edit componentes como invisibles
         TB_editCorreo.Visible = false;
         BTN_editarCorreo.Visible = false;
