@@ -9,6 +9,14 @@ namespace Datos
 {
     public class DAOAdmin
     {
+        //METODO PARA OBTENER ADMIN 
+        public UEncapUsuario obtenerAdmin(UEncapUsuario user)
+        {
+            using (var db = new Mapeo())
+            {
+                return db.usuario.Where(x => x.Correo.Equals(user.Correo)).FirstOrDefault();
+            }
+        }
         //METODO PARA INSERTAR EMPLEADO 
         public void InsertarEmpleado(UEncapUsuario user)
         {

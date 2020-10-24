@@ -6,20 +6,21 @@ namespace LogicaNegocio
 {
     public class LAdministrador
     {
+        public UEncapUsuario obtenerAdmin (UEncapUsuario usu)
+        {
+            var usuario = new DAOAdmin().obtenerAdmin(usu);
+            return usuario;
+        }
         //METODOS PARA MISION VISION OBJETIVO 
         public EncapMision ObtenerMision (EncapMision mision)
         {
-
             var misi = new DAOAdmin().ObtenerMision(mision);
-
             return misi;
         }
 
         public EncapVision ObtenerVision(EncapVision vision)
         {
-
             var visi = new DAOAdmin().ObtenerVision(vision);
-
             return visi;
         }
 

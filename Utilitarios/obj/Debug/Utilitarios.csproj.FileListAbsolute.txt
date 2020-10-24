@@ -52,8 +52,17 @@ K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Util
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Debug\Utilitarios.pdb
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.dll
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.xml
-K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.dll
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Debug\Utilitarios.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Debug\Utilitarios.pdb
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.pdb

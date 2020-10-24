@@ -15,3 +15,20 @@ C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Lo
 C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.csproj.CopyComplete
 C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.dll
 C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\LogicaNegocio.dll.config
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\LogicaNegocio.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\Datos.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\Newtonsoft.Json.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\EntityFramework.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\Datos.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\Datos.dll.config
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\Newtonsoft.Json.xml
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Release\EntityFramework.xml
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Release\LogicaNegocio.csprojAssemblyReference.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Release\LogicaNegocio.csproj.CoreCompileInputs.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Release\LogicaNegocio.csproj.CopyComplete
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Release\LogicaNegocio.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Release\LogicaNegocio.pdb

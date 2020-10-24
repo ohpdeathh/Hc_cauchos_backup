@@ -17,6 +17,25 @@ namespace LogicaNegocio
 
             return mensaje;
         }    
+
+        //metodo para login servicios
+        public UEncapUsuario login2 (LoginRequest login)
+        {
+            return new DaoUsuario().verificarUsuario2(login);
+        }
+
+        //metodo para almacenar token
+        public void guararToken(UEncapToken token)
+        {
+            new DaoUsuario().almacenarToken(token);
+        }
+
+        //metodo para obtener configuracion
+        public UEncapAplicacion ObtenerConfiguracion(string token)
+        {
+            return new DaoUsuario().getAplicaionesByToken(token);
+        }
+
         // actualizacion de usuario
         public string Actualizar (UEncapUsuario userb)
         {

@@ -35,6 +35,9 @@ namespace Datos
         public DbSet<UEncapEstadoPedido> estado_pedido { get; set; }
         public DbSet<UEncapCiudades_Dep> ciudades_departamentso { get; set; }
         public DbSet<UEncapMunicipio> municipios { get; set; }
+        public DbSet<UEncapToken>token { get; set; }
+        public DbSet<UEncapAplicacion> aplicacion { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

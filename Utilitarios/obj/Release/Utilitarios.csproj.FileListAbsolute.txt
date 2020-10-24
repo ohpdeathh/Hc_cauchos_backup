@@ -7,3 +7,12 @@ C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Ut
 C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.csproj.CopyComplete
 C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.dll
 C:\Users\juan5\OneDrive\Escritorio\UNIVERSIDAD\hc_cauchos_II\hc_Cauchos2020_2\Utilitarios\obj\Release\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Release\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Release\Utilitarios.pdb
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Release\Newtonsoft.Json.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\bin\Release\Newtonsoft.Json.xml
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Release\Utilitarios.csprojAssemblyReference.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Release\Utilitarios.csproj.CoreCompileInputs.cache
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Release\Utilitarios.csproj.CopyComplete
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Release\Utilitarios.dll
+K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Release\Utilitarios.pdb

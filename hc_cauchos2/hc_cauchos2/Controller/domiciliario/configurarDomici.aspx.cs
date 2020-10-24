@@ -11,14 +11,14 @@ public partial class View_domiciliario_configurarDomici : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        UEncapUsuario usuario = new UEncapUsuario();
-        usuario = new LLogin().usuarioActivo2((string)Session["correo"]);
+        UEncapUsuario usuarioo = new UEncapUsuario();
+        usuarioo = new LLogin().usuarioActivo2((string)Session["correo"]);
 
-        if (usuario == null || Session["Valido"] == null)
+        if (usuarioo == null || Session["Valido"] == null)
         {
             Response.Redirect("../home.aspx");
         }
-        if (usuario.Rol_id != 3)
+        if (usuarioo.Rol_id != 3)
         {
             Response.Redirect("../home.aspx");
         }

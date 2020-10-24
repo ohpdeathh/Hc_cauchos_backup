@@ -111,3 +111,20 @@ K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\Logi
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.dll
 K:\UDEC\OCTAVO\INGENIERIA DE SOFTWARE 2\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\LogicaNegocio.dll.config
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\Datos.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\Utilitarios.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\Datos.pdb
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\Datos.dll.config
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\Utilitarios.pdb
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.csprojAssemblyReference.cache
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

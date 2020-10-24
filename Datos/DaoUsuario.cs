@@ -18,6 +18,52 @@ namespace Datos
                 return db.usuario.Where(x => x.Correo.Equals(verificar.Correo) && x.Clave.Equals(verificar.Clave)).FirstOrDefault();
             }
         }
+        //metodo para login de servicios
+        public UEncapUsuario verificarUsuario2(LoginRequest verificar)
+        {
+            using (var db = new Mapeo())
+            {
+                UEncapUsuario usuario = db.usuario.FirstOrDefault(x => x.Correo == verificar.email && x.Clave == verificar.Password);
+                if (usuario!= null){
+                    var propiedades = db.aplicacion.Where(x => x.Id == verificar.AplicacionId).FirstOrDefault();
+                    usuario.Expiracion = propiedades.Tiempo;
+                    usuario.Key = propiedades.Llave;
+                    usuario.AplicacionId = verificar.AplicacionId;
+                }    
+                return usuario;
+            }
+        }
+
+        //metodo para almacenar token 
+        public void almacenarToken(UEncapToken token)
+        {
+            using (var db = new Mapeo())
+            {
+                db.token.Add(token);
+                db.SaveChanges();
+            }
+        }
+
+        //metodo para obtener aplicaciones por token
+        public UEncapAplicacion getAplicaionesByToken(string token)
+        {
+            using (var db = new Mapeo())
+            {
+                return (from t in db.token
+                        join a in db.aplicacion on t.AplicacionId equals a.Id
+                        where t.Token.Equals(token)
+                        select new
+                        {
+                            a
+                        }).ToList().Select(m => new UEncapAplicacion
+                        {
+                            Id = m.a.Id,
+                            Tiempo = m.a.Tiempo,
+                            Llave = m.a.Llave,
+                            Nombre = m.a.Nombre
+                        }).FirstOrDefault();
+            }
+        }
         //metodo de actualizacion de session
 
         public UEncapUsuario actualizarsession(UEncapUsuario actualizar)

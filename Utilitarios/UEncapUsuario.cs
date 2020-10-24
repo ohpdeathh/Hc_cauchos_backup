@@ -29,6 +29,10 @@ namespace Utilitarios
         private string ip_;
         private string mac_;
 
+        private int expiracion;
+        private string key;
+        private int aplicacionId;
+
         [Key]
         [Column("user_id")]
         public int User_id { get => user_id; set => user_id = value; }
@@ -67,5 +71,11 @@ namespace Utilitarios
         public string RolNombre { get => rolNombre; set => rolNombre = value; }
         [NotMapped]
         public string EstadoNombre { get => estadoNombre; set => estadoNombre = value; }
+        [NotMapped]
+        public int Expiracion { get => expiracion; set => expiracion = value; }
+        [NotMapped]
+        public string Key { get => key; set => key = value; }
+        [NotMapped]
+        public int AplicacionId { get => aplicacionId; set => aplicacionId = value; }
     }
 }
