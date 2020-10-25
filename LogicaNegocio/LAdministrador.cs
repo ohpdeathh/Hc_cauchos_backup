@@ -185,7 +185,7 @@ namespace LogicaNegocio
         }
 
         //MEOTODO PARA ACTUALIZAR A LOS EMPLEADOS
-        public void actualizarEmpleado(UEncapUsuario user)
+        public void actualizarAdmin(UEncapUsuario user)
         {
             new DAOAdmin().ActualizarUsuario(user);
         }

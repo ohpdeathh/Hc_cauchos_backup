@@ -66,3 +66,12 @@ C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\D
 C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
 C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.dll
 C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.pdb
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Utilitarios.dll
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Utilitarios.pdb
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.dll
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.pdb

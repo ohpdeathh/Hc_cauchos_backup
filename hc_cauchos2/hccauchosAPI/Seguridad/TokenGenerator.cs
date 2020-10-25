@@ -26,8 +26,10 @@ namespace WebApiSegura.Security
 
             // create a claimsIdentity 
             ClaimsIdentity claimsIdentity = new ClaimsIdentity(new[] {
-                new Claim(ClaimTypes.Email, user.Correo),
+                new Claim(ClaimTypes.NameIdentifier, user.User_id.ToString()),
+                new Claim(ClaimTypes.Email, user.Correo),            
                 new Claim(ClaimTypes.Name, user.Nombre),
+                new Claim(ClaimTypes.SerialNumber, user.Identificacion),
                 new Claim(ClaimTypes.Role, user.Rol_id.ToString()),
                 new Claim(ClaimTypes.Gender, user.AplicacionId.ToString())
             });
