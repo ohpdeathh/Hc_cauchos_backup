@@ -9,6 +9,64 @@ namespace Datos
 {
     public class DAOAdmin
     {
+        //METODO PARA ACTUALIZAR CONTRASEÑA ADMIN 
+        public void ActualizarContraseña(UEncapUsuario user)
+        {
+            using (var db = new Mapeo())
+            {
+
+                var resultado = db.usuario.SingleOrDefault(b => b.User_id == user.User_id);
+                if (resultado != null)
+                {
+                 ;
+                    resultado.Clave = user.Clave;
+                    db.SaveChanges();
+                }
+
+            }
+
+        }
+
+        //METODO PARA ACTUALIZAR CORREO ADMIN 
+        public void ActualizarCorreo(UEncapUsuario user)
+        {
+            using (var db = new Mapeo())
+            {
+
+                var resultado = db.usuario.SingleOrDefault(b => b.User_id == user.User_id);
+                if (resultado != null)
+                {
+                    ;
+                    resultado.Correo = user.Correo;
+                    db.SaveChanges();
+                }
+
+            }
+
+        }
+
+        //METODO PARA VERIFICAR CORREO ADMIN
+        public bool verificarCorreo (UEncapUsuario user)
+        {
+            using (var db = new Mapeo())
+            {
+
+                var resultado = db.usuario.SingleOrDefault(b => b.Correo == user.Correo);
+                if (resultado != null)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+        }
+
+
+
+
         //METODO PARA OBTENER ADMIN 
         public UEncapUsuario obtenerAdmin(UEncapUsuario user)
         {

@@ -184,11 +184,26 @@ namespace LogicaNegocio
             return empleados;
         }
 
-        //MEOTODO PARA ACTUALIZAR A LOS EMPLEADOS
-        public void actualizarAdmin(UEncapUsuario user)
+        //MEOTODO PARA ACTUALIZAR CONTRASEÑA ADMIN LOS EMPLEADOS
+        public void actualizarContraseña(UEncapUsuario user)
         {
-            new DAOAdmin().ActualizarUsuario(user);
+            new DAOAdmin().ActualizarContraseña(user);
         }
+
+        //MEOTODO PARA ACTUALIZAR CORREO ADMIN LOS EMPLEADOS
+        public void actualizarCorreo(UEncapUsuario user)
+        {
+            new DAOAdmin().ActualizarCorreo(user);
+        }
+
+        //METODO PARA VERIFICAR CORREO
+        public bool verifcarCorreo(UEncapUsuario user)
+        {
+            bool request = new DAOAdmin().verificarCorreo(user);
+            return request;
+        }
+
+
 
 
         //METODO PARA OBTENER EMPLEADOS POOR NOMBRE

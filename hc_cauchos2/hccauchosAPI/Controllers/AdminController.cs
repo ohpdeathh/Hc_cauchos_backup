@@ -5,7 +5,7 @@ using System.Web.Http;
 using Microsoft.IdentityModel.Tokens;
 using Utilitarios;
 using LogicaNegocio;
-
+using System;
 
 namespace hccauchosAPI.Controllers
 {
@@ -37,13 +37,14 @@ namespace hccauchosAPI.Controllers
         {
             string mensaje = "";
             var claimsIdentity = (ClaimsIdentity)Thread.CurrentPrincipal.Identity;
-            var valor = claimsIdentity.FindFirst(ClaimTypes.Email);
+            var valor = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
             UEncapUsuario usu = new UEncapUsuario();
-            usu.Correo = valor.Value;
+            usu.User_id = Int32.Parse(valor.Value);
             usu.Clave = newcontraseña.Clave;
+           
 
-            new LAdministrador().actualizarAdmin(usu);
+            new LAdministrador().actualizarContraseña(usu);
 
             if (newcontraseña == null)
             {
@@ -62,23 +63,31 @@ namespace hccauchosAPI.Controllers
         {
             string mensaje = "";
             var claimsIdentity = (ClaimsIdentity)Thread.CurrentPrincipal.Identity;
-            var valor = claimsIdentity.FindFirst(ClaimTypes.SerialNumber);
+            var valor = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
             UEncapUsuario usu = new UEncapUsuario();
-            usu.Identificacion = valor.Value;
-            usu.Clave = newcorreo.Clave;
+            usu.User_id = Int32.Parse(valor.Value);
+            usu.Correo = newcorreo.Correo;
 
-            new LAdministrador().actualizarAdmin(usu);
-
-            if (newcorreo == null)
+            bool verificar = new LAdministrador().verifcarCorreo(usu);
+            if (verificar != false)
             {
-                mensaje = "debe ingresar el correo a cambiar";
+                return "el correo ya se encuentra asociado a una cuenta";
             }
             else
             {
-                mensaje = "el correo se ha modificado satisfactoriamente";
+                new LAdministrador().actualizarCorreo(usu);e
+
+                if (newcorreo == null)
+                {
+                    return "debe ingresar el correo a cambiar";
+                }
+                else
+                {
+                    return "el correo se ha modificado satisfactoriamente";
+                }
             }
-            return mensaje;
+
         }
 
 
