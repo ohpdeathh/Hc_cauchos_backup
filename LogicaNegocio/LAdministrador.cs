@@ -26,29 +26,60 @@ namespace LogicaNegocio
             return empleados;
         }
 
+        //MEOTODO PARA ACTUALIZAR CONTRASEÑA ADMIN LOS EMPLEADOS
+        public void actualizarContraseña(UEncapUsuario user)
+        {
+            new DAOAdmin().ActualizarContraseña(user);
+        }
 
-        //LISTOOOOOSS-----------------------------------------------------------
+        //MEOTODO PARA ACTUALIZAR CORREO ADMIN LOS EMPLEADOS
+        public void actualizarCorreo(UEncapUsuario user)
+        {
+            new DAOAdmin().ActualizarCorreo(user);
+        }
+
+        //METODO PARA VERIFICAR CORREO
+        public bool verifcarCorreo(UEncapUsuario user)
+        {
+            bool request = new DAOAdmin().verificarCorreo(user);
+            return request;
+        }
+
+        //METODO PARA MODIFICAR EMPLEADO 
+
+        public void actualizarEmpleado(UEncapUsuario empleado)
+        {
+            new DAOAdmin().actualizarEmpleado(empleado);
+        }
+
+        //METODO PARA ACTUALIZAR EL INVENTARIO
+        public void ActualizarInventario(UEncapInventario inventario)
+        {
+            new DAOAdmin().ActualizarInventario(inventario);
+        }
+
         //METODOS PARA MISION VISION OBJETIVO 
-        public EncapMision ObtenerMision ()
+        public EncapMision ObtenerMision()
         {
             var misi = new DAOAdmin().ObtenerMision();
             return misi;
         }
 
-        public EncapVision ObtenerVision(EncapVision vision)
+        public EncapVision ObtenerVision()
         {
-            var visi = new DAOAdmin().ObtenerVision(vision);
+            var visi = new DAOAdmin().ObtenerVision();
             return visi;
         }
 
-        public EncapObjetivo ObtenerObjetivo(EncapObjetivo objetivo)
+        public EncapObjetivo ObtenerObjetivo()
         {
 
-            var obje = new DAOAdmin().ObtenerObjetivon(objetivo);
+            var obje = new DAOAdmin().ObtenerObjetivon();
 
             return obje;
         }
 
+        //metodos para actualizar mision vision objetivo
         public void ActualizarMision(EncapMision mision)
         {
             new DAOAdmin().ActualizarMision(mision);
@@ -61,6 +92,12 @@ namespace LogicaNegocio
         {
             new DAOAdmin().ActualizarObjetivo(Objetivo);
         }
+
+
+        //LISTOOOOOSS-----------------------------------------------------------
+
+
+
         public void ActualizarTiempoCarrito(UEncapParametros tiempo)
         {
             new DAOAdmin().ActualizarTiempoCarrito(tiempo);
@@ -196,24 +233,7 @@ namespace LogicaNegocio
         }
     
 
-        //MEOTODO PARA ACTUALIZAR CONTRASEÑA ADMIN LOS EMPLEADOS
-        public void actualizarContraseña(UEncapUsuario user)
-        {
-            new DAOAdmin().ActualizarContraseña(user);
-        }
-
-        //MEOTODO PARA ACTUALIZAR CORREO ADMIN LOS EMPLEADOS
-        public void actualizarCorreo(UEncapUsuario user)
-        {
-            new DAOAdmin().ActualizarCorreo(user);
-        }
-
-        //METODO PARA VERIFICAR CORREO
-        public bool verifcarCorreo(UEncapUsuario user)
-        {
-            bool request = new DAOAdmin().verificarCorreo(user);
-            return request;
-        }
+     
 
 
 
@@ -232,11 +252,7 @@ namespace LogicaNegocio
             return inventario;
         }
 
-        //METODO PARA ACTUALIZAR EL INVENTARIO
-        public void ActualizarInventario(UEncapInventario inventario)
-        {
-            new DAOAdmin().ActualizarInventario(inventario);  
-        }
+        
 
         //METODO PARA CONSULTAR INVETARIO POR REFERENCIA
         public List<UEncapInventario> BuscarReferencia( string a)

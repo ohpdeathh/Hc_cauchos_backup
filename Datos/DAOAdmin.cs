@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -114,31 +115,55 @@ namespace Datos
             }
         }
 
-
-
-        //LISTOS-------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //METODO PARA OBTENER ADMIN 
-        public UEncapUsuario obtenerAdmin(UEncapUsuario user)
+        //metodo para realizar cambios a empleado 
+        public void actualizarEmpleado(UEncapUsuario empleado)
         {
             using (var db = new Mapeo())
             {
-                return db.usuario.Where(x => x.Correo.Equals(user.Correo)).FirstOrDefault();
+                UEncapUsuario encapUsuario = db.usuario.Where(x => x.User_id == empleado.User_id).First();
+
+                encapUsuario.Nombre = empleado.Nombre;
+                encapUsuario.Apellido = empleado.Apellido;
+                encapUsuario.Correo = empleado.Correo;
+                encapUsuario.Identificacion = empleado.Identificacion;
+                encapUsuario.Rol_id = empleado.Rol_id;
+                encapUsuario.Estado_id = empleado.Estado_id;
+                encapUsuario.Fecha_nacimiento = empleado.Fecha_nacimiento;
+                encapUsuario.Last_modify = DateTime.Now;
+                encapUsuario.Sesion = empleado.Sesion;
+                db.usuario.Attach(encapUsuario);
+                var entry = db.Entry(encapUsuario);
+                entry.State = EntityState.Modified;
+                db.SaveChanges();
             }
         }
-       
+
+
+        //METODO ACTUALIZAR TABLA EN EL INVENTARIO
+        public void ActualizarInventario(UEncapInventario invent)
+        {
+            using (var db = new Mapeo())
+            {
+                var resultado = db.inventario.SingleOrDefault(x => x.Id == invent.Id);
+                if (resultado != null)
+                {
+                    resultado.Titulo = invent.Titulo;
+                    resultado.Imagen = invent.Imagen;
+                    resultado.Referencia = invent.Referencia;
+                    resultado.Precio = invent.Precio;
+                    resultado.Ca_actual = invent.Ca_actual;
+                    resultado.Ca_minima = invent.Ca_minima;
+                    resultado.Id_marca = invent.Id_marca;
+                    resultado.Id_estado = invent.Id_estado;
+                    resultado.Id_categoria = invent.Id_categoria;
+                    resultado.Last_modify = DateTime.Now;
+                    resultado.Session = invent.Session;
+                    db.SaveChanges();
+                }
+            }
+
+        }
+
         //METODO PARA OBTENER MISION
         public EncapMision ObtenerMision()
         {
@@ -148,20 +173,22 @@ namespace Datos
                 return mision;
             }
         }
+
         //METODO PARA OBTENER VISION
-        public EncapVision ObtenerVision(EncapVision id)
+        public EncapVision ObtenerVision()
         {
             using (var db = new Mapeo())
             {
-                return db.vision.Where(x => x.Id.Equals(id.Id)).FirstOrDefault();
+                return db.vision.Where(x => x.Id ==1).FirstOrDefault();
             }
         }
+
         //METODO PARA OBTENER OBJETIVO 
-        public EncapObjetivo ObtenerObjetivon(EncapObjetivo id)
+        public EncapObjetivo ObtenerObjetivon()
         {
             using (var db = new Mapeo())
             {
-                return db.objetivo.Where(x => x.Id.Equals(id.Id)).FirstOrDefault();
+                return db.objetivo.Where(x => x.Id ==1).FirstOrDefault();
             }
         }
 
@@ -213,6 +240,35 @@ namespace Datos
             }
 
         }
+
+        //LISTOS-------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //METODO PARA OBTENER ADMIN 
+        public UEncapUsuario obtenerAdmin(UEncapUsuario user)
+        {
+            using (var db = new Mapeo())
+            {
+                return db.usuario.Where(x => x.Correo.Equals(user.Correo)).FirstOrDefault();
+            }
+        }
+       
+        
+        
+        
+
+        
 
         //METODO PARAMETRO DE TIMEPO CARRITO
 
@@ -902,12 +958,10 @@ namespace Datos
                             Ca_minima = m.uu.Ca_minima,
                             Id_marca = m.uu.Id_marca,
                             Id_categoria = m.uu.Id_categoria,
-
                             Id_estado = m.uu.Id_estado,
 
                             Nombre_categoria = m.categoria.Categoria,
                             Nombre_marca = m.marca_carro.Marca,
-
                             Estado = m.estadoitem.Estado_item
 
 
@@ -918,30 +972,7 @@ namespace Datos
             }
         }
 
-        //METODO ACTUALIZAR TABLA EN EL INVENTARIO
-        public void ActualizarInventario(UEncapInventario invent)
-        {
-            using (var db = new Mapeo())
-            {
-                var resultado = db.inventario.SingleOrDefault(x => x.Id == invent.Id);
-                if (resultado != null)
-                {
-                    resultado.Titulo = invent.Titulo;
-                    resultado.Imagen = invent.Imagen;
-                    resultado.Referencia = invent.Referencia;
-                    resultado.Precio = invent.Precio;
-                    resultado.Ca_actual = invent.Ca_actual;
-                    resultado.Ca_minima = invent.Ca_minima;
-                    resultado.Id_marca = invent.Id_marca;
-                    resultado.Id_estado = invent.Id_estado;
-                    resultado.Id_categoria = invent.Id_categoria;
-                    resultado.Last_modify = DateTime.Now;
-                    resultado.Session = invent.Session;
-                    db.SaveChanges();
-                }
-            }
-
-        }
+    
 
         //METODO CONSULATAR REFERENCIA
         public List<UEncapInventario> BuscarReferencia(string a)

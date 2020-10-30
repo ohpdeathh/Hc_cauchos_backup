@@ -107,6 +107,12 @@ namespace hccauchosAPI.Controllers
         }
 
         //servicio actualizar empleado
+        [HttpPost]
+        [Route("modificarEmpleado")]
+        public void obtenerEmpleados(UEncapUsuario empleado)
+        {
+            new LAdministrador().actualizarEmpleado(empleado);
+        }
 
 
         //servicio para insertar a inventario
@@ -126,8 +132,12 @@ namespace hccauchosAPI.Controllers
         }
 
         //servicio actualizar inventario
-
-
+        [HttpPost]
+        [Route("modificarInventario")]
+        public void modificarInventario(UEncapInventario inventario)
+        {
+            new LAdministrador().ActualizarInventario(inventario);
+        }
 
         //servicios para mision vision objetivo 
         [HttpGet]
@@ -135,7 +145,43 @@ namespace hccauchosAPI.Controllers
         public EncapMision getMision()
         {
             return new LAdministrador().ObtenerMision();
-        } 
+        }
+
+        [HttpGet]
+        [Route("obtenerVision")]
+        public EncapVision getVision()
+        {
+            return new LAdministrador().ObtenerVision();
+        }
+       
+        [HttpGet]
+        [Route("obtenerObjetivo")]
+        public EncapObjetivo getObjetivo()
+        {
+            return new LAdministrador().ObtenerObjetivo();
+        }
+
+        //servicios para modificar mision vision objetivo
+        [HttpPost]
+        [Route("modificarMision")]
+        public void setMision(EncapMision mision)
+        {
+            new LAdministrador().ActualizarMision(mision);
+        }
+
+        [HttpPost]
+        [Route("modificarVision")]
+        public void setVision(EncapVision vision)
+        {
+            new LAdministrador().ActualizarVision(vision);
+        }
+
+        [HttpPost]
+        [Route("modificarObjetivo")]
+        public void setObjetivo(EncapObjetivo objetivo)
+        {
+            new LAdministrador().ActualizarObjetivo(objetivo);
+        }
 
 
 
