@@ -64,6 +64,69 @@ namespace Datos
             }
         }
 
+        //METODO PARA INSERTAR EMPLEADO 
+        public void InsertarEmpleado(UEncapUsuario user)
+        {
+            using (var db = new Mapeo())
+            {
+                db.usuario.Add(user);
+                db.SaveChanges();
+            }
+        }
+
+        //METODO PARA OBTENER EMPLEADOS EN CAMBIOSEMPLEADO
+        public List<UEncapUsuario> ObtenerEmpleados()
+        {
+            using (var db = new Mapeo())
+            {
+                return (
+                        //apunto a tabla empleado donde usuario sea empleado/domiciliario 
+                        from usu in db.usuario
+                        where usu.Rol_id == 2 || usu.Rol_id == 3
+                        //join usuario - rol
+                        join rol in db.rol on usu.Rol_id equals rol.Id
+                        //join usuario - estado 
+                        join estado in db.estado on usu.Estado_id equals estado.Id
+
+                        select new
+                        {
+                            usu,
+                            rol,
+                            estado
+
+                        }).ToList().Select(m => new UEncapUsuario
+                        {
+                            User_id = m.usu.User_id,
+                            Nombre = m.usu.Nombre,
+                            Apellido = m.usu.Apellido,
+                            Correo = m.usu.Correo,
+                            Clave = m.usu.Clave,
+                            Fecha_nacimiento = m.usu.Fecha_nacimiento,
+                            Identificacion = m.usu.Identificacion,
+                            //
+                            Rol_id = m.usu.Rol_id,
+                            RolNombre = m.rol.Nombre,
+                            //
+                            Estado_id = m.usu.Estado_id,
+                            EstadoNombre = m.estado.Nombre
+
+                        }).ToList();
+            }
+        }
+
+
+
+        //LISTOS-------------
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -75,21 +138,14 @@ namespace Datos
                 return db.usuario.Where(x => x.Correo.Equals(user.Correo)).FirstOrDefault();
             }
         }
-        //METODO PARA INSERTAR EMPLEADO 
-        public void InsertarEmpleado(UEncapUsuario user)
-        {
-            using (var db = new Mapeo())
-            {
-                db.usuario.Add(user);
-                db.SaveChanges();
-            }
-        }
+       
         //METODO PARA OBTENER MISION
-        public EncapMision ObtenerMision(EncapMision id)
+        public EncapMision ObtenerMision()
         {
             using (var db = new Mapeo())
             {
-                return db.mision.Where(x => x.Id.Equals(id.Id)).FirstOrDefault();
+                var mision = db.mision.Where(x => x.Id == 1).FirstOrDefault();
+                return mision;
             }
         }
         //METODO PARA OBTENER VISION
@@ -740,46 +796,7 @@ namespace Datos
                         }).ToList();
             }
         }
-        //METODO PARA OBTENER EMPLEADOS EN CAMBIOSEMPLEADO
-        public List<UEncapUsuario> ObtenerEmpleados()
-        {
-            using (var db = new Mapeo())
-            {
-                return (
-                        //apunto a tabla empleado donde usuario sea empleado/domiciliario 
-                        from usu in db.usuario
-                        where usu.Rol_id == 2 || usu.Rol_id == 3
-                    //join usuario - rol
-                    join rol in db.rol on usu.Rol_id equals rol.Id
-                    //join usuario - estado 
-                    join estado in db.estado on usu.Estado_id equals estado.Id
-
-                        select new
-                        {
-                            usu,
-                            rol,
-                            estado
-
-                        }).ToList().Select(m => new UEncapUsuario
-                        {
-                            User_id = m.usu.User_id,
-                            Nombre = m.usu.Nombre,
-                            Apellido = m.usu.Apellido,
-                            Correo = m.usu.Correo,
-                            Clave = m.usu.Clave,
-                            Fecha_nacimiento = m.usu.Fecha_nacimiento,
-                            Identificacion = m.usu.Identificacion,
-                        //
-                        Rol_id = m.usu.Rol_id,
-                            RolNombre = m.rol.Nombre,
-                        //
-                        Estado_id = m.usu.Estado_id,
-                            EstadoNombre = m.estado.Nombre
-
-                        }).ToList();
-            }
-        }
-
+       
         //METODO PARA ACTUALIZAR USUARIOS 
         public void ActualizarUsuario(UEncapUsuario user)
         {

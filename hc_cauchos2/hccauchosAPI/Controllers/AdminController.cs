@@ -6,11 +6,12 @@ using Microsoft.IdentityModel.Tokens;
 using Utilitarios;
 using LogicaNegocio;
 using System;
+using System.Collections.Generic;
 
 namespace hccauchosAPI.Controllers
 {
     //required token and establish role
-    [Authorize (Roles ="1")]
+    [Authorize(Roles = "1")]
     [RoutePrefix("api/admin")]
     public class AdminController : ApiController
     {
@@ -26,11 +27,11 @@ namespace hccauchosAPI.Controllers
             usu.Correo = valor.Value;
 
             var usua = new LAdministrador().obtenerAdmin(usu);
-            
-            return usua;
-           
-        }
 
+            return usua;
+
+        }
+        //metodo para modificar la contraseña del admin
         [HttpGet]
         [Route("modificarContraseña")]
         public string modificarContraseña(UEncapUsuario newcontraseña)
@@ -42,7 +43,7 @@ namespace hccauchosAPI.Controllers
             UEncapUsuario usu = new UEncapUsuario();
             usu.User_id = Int32.Parse(valor.Value);
             usu.Clave = newcontraseña.Clave;
-           
+
 
             new LAdministrador().actualizarContraseña(usu);
 
@@ -56,7 +57,7 @@ namespace hccauchosAPI.Controllers
             }
             return mensaje;
         }
-
+        //servicio para modificar el correo del admin
         [HttpGet]
         [Route("modificarCorreo")]
         public string modificarCorreo(UEncapUsuario newcorreo)
@@ -76,7 +77,7 @@ namespace hccauchosAPI.Controllers
             }
             else
             {
-                new LAdministrador().actualizarCorreo(usu);e
+                new LAdministrador().actualizarCorreo(usu);
 
                 if (newcorreo == null)
                 {
@@ -89,6 +90,57 @@ namespace hccauchosAPI.Controllers
             }
 
         }
+        //servicio para insertar al empleado 
+        [HttpPost]
+        [Route("insertarEmpleado")]
+        public void insertarEmpleado(UEncapUsuario empleado)
+        {
+            new LAdministrador().insertarEmpleado(empleado);
+        }
+
+        //servicio para obtener empleados por nombre
+        [HttpGet]
+        [Route("obtenerEmpleados")]
+        public List<UEncapUsuario> obtenerEmpleados()
+        {
+            return new LAdministrador().obtenerEmpleados();
+        }
+
+        //servicio actualizar empleado
+
+
+        //servicio para insertar a inventario
+        [HttpPost]
+        [Route("insertarItemInventario")]
+        public void insertarInventario(UEncapInventario item)
+        {
+            new LAdministrador().insertarItem(item);
+        }
+
+        //servicio para obtener inventario
+        [HttpPost]
+        [Route("obtenerInventario")]
+        public List<UEncapInventario> obtenerInventario()
+        {
+            return new LAdministrador().ConsultarInventario();
+        }
+
+        //servicio actualizar inventario
+
+
+
+        //servicios para mision vision objetivo 
+        [HttpGet]
+        [Route("obtenerMision")]
+        public EncapMision getMision()
+        {
+            return new LAdministrador().ObtenerMision();
+        } 
+
+
+
+
+
 
 
 

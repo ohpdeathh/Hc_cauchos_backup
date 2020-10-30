@@ -11,10 +11,27 @@ namespace LogicaNegocio
             var usuario = new DAOAdmin().obtenerAdmin(usu);
             return usuario;
         }
-        //METODOS PARA MISION VISION OBJETIVO 
-        public EncapMision ObtenerMision (EncapMision mision)
+
+        //METODO PARA INSERTAR EMPLEADO
+        public void insertarEmpleado(UEncapUsuario empleado)
         {
-            var misi = new DAOAdmin().ObtenerMision(mision);
+             new DAOAdmin().InsertarEmpleado(empleado);
+
+        }
+
+        //METODO PARA OBTENER EMPLEADOS
+        public List<UEncapUsuario> obtenerEmpleados()
+        {
+            var empleados = new DAOAdmin().ObtenerEmpleados();
+            return empleados;
+        }
+
+
+        //LISTOOOOOSS-----------------------------------------------------------
+        //METODOS PARA MISION VISION OBJETIVO 
+        public EncapMision ObtenerMision ()
+        {
+            var misi = new DAOAdmin().ObtenerMision();
             return misi;
         }
 
@@ -177,12 +194,7 @@ namespace LogicaNegocio
             var alerta = new DAOAdmin().ConsultarAlertas();
             return alerta;
         }
-        //METODO PARA OBTENER EMPLEADOS
-        public List<UEncapUsuario> obtenerEmpleados()
-        {
-            var empleados = new DAOAdmin().ObtenerEmpleados();
-            return empleados;
-        }
+    
 
         //MEOTODO PARA ACTUALIZAR CONTRASEÑA ADMIN LOS EMPLEADOS
         public void actualizarContraseña(UEncapUsuario user)
