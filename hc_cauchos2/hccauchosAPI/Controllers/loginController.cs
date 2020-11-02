@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace hccauchosAPI.Controllers
 {
-    [EnableCors(origins: "", headers: "", methods: "*")]
+    [EnableCors("*","*","*")]
     [RoutePrefix("api")]
     public class loginController : ApiController
     {
