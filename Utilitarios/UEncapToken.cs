@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Utilitarios
 {
     [Serializable]
-    [Table("token_usuario_app", Schema = "sistema")]
+    [Table("token_usuario_app", Schema = "security")]
     public class UEncapToken
     {
 

@@ -49,6 +49,7 @@
     <Compile Include="EncapMision.cs" />
     <Compile Include="EncapObjetivo.cs" />
     <Compile Include="EncapVision.cs" />
+    <Compile Include="entrada\Empleadorequest.cs" />
     <Compile Include="entrada\LoginRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UEncapAplicacion.cs" />

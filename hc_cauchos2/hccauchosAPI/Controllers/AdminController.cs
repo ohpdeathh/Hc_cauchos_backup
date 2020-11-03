@@ -76,7 +76,7 @@ namespace hccauchosAPI.Controllers
             }
             else
             {
-                new LAdministrador().actualizarCorreo(usu);e
+                new LAdministrador().actualizarCorreo(usu);
 
                 if (newcorreo == null)
                 {

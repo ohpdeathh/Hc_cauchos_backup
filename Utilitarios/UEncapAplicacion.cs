@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Utilitarios
 {
     [Serializable]
-    [Table("aplicaciones", Schema = "sistema")]
+    [Table("aplicaciones", Schema = "security")]
     public class UEncapAplicacion
     {
         private int id;
