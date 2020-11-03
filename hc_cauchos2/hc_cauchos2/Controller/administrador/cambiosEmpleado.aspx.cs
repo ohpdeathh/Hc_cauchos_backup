@@ -58,11 +58,6 @@ public partial class View_administrador_cambiosEmpleado : System.Web.UI.Page
 
         UEncapUsuario validarIdentificacion = new UEncapUsuario();
 
-
-
-
-
-
         //e.NewValues.Insert(2, "Rol_id", int.Parse(((DropDownList)row.FindControl("DDL_roles")).SelectedValue)); 
         //e.NewValues.Insert(4, "Estado_id", int.Parse(((DropDownList)row.FindControl("DDL_estados")).SelectedValue));
 

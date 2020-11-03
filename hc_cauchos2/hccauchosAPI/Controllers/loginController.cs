@@ -1,11 +1,13 @@
 ﻿using System.Web.Http;
+using System.Web.Http.Cors;
 using LogicaNegocio;
 using Utilitarios;
 using WebApiSegura.Security;
+using System.Collections.Generic;
 
 namespace hccauchosAPI.Controllers
 {
-
+    [EnableCors("*","*","*")]
     [RoutePrefix("api")]
     public class loginController : ApiController
     {
