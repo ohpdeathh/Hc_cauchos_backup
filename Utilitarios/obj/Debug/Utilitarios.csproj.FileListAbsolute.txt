@@ -70,6 +70,7 @@ C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Utilitar
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Utilitarios.pdb
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Utilitarios\obj\Debug\Utilitarios.dll
