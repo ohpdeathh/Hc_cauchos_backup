@@ -347,7 +347,9 @@ C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\S
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Text.Json.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.ValueTuple.dll
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Cors.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Helpers.dll
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.Cors.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.WebHost.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Mvc.dll
@@ -384,6 +386,7 @@ C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\S
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.ValueTuple.xml
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Helpers.xml
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.xml
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.Cors.xml
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.WebHost.xml
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Mvc.xml
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Razor.xml

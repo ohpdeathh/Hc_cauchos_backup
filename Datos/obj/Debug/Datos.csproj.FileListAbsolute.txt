@@ -1067,6 +1067,7 @@ C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Datos\obj\Debug\D
 C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Datos\obj\Debug\Datos.dll
 C:\Users\udecP\Desktop\asd\Hc_cauchos_backup\Hc_cauchos_backup\Datos\obj\Debug\Datos.pdb
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.FileSystem.Primitives.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\Datos.dll.config
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\Datos.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\Datos.pdb
@@ -1102,7 +1103,6 @@ C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.Comp
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.FileSystem.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.FileSystem.Primitives.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.FileSystem.Watcher.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.IsolatedStorage.dll
 C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\Datos\bin\Debug\System.IO.MemoryMappedFiles.dll
