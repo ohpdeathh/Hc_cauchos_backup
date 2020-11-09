@@ -12,19 +12,6 @@ namespace LogicaNegocio
             return usuario;
         }
 
-        //METODO PARA INSERTAR EMPLEADO
-        public void insertarEmpleado(UEncapUsuario empleado)
-        {
-             new DAOAdmin().InsertarEmpleado(empleado);
-
-        }
-
-        //METODO PARA OBTENER EMPLEADOS
-        public List<UEncapUsuario> obtenerEmpleados()
-        {
-            var empleados = new DAOAdmin().ObtenerEmpleados();
-            return empleados;
-        }
 
         //MEOTODO PARA ACTUALIZAR CONTRASEÑA ADMIN LOS EMPLEADOS
         public void actualizarContraseña(UEncapUsuario user)
@@ -43,19 +30,6 @@ namespace LogicaNegocio
         {
             bool request = new DAOAdmin().verificarCorreo(user);
             return request;
-        }
-
-        //METODO PARA MODIFICAR EMPLEADO 
-
-        public void actualizarEmpleado(UEncapUsuario empleado)
-        {
-            new DAOAdmin().actualizarEmpleado(empleado);
-        }
-
-        //METODO PARA ACTUALIZAR EL INVENTARIO
-        public void ActualizarInventario(UEncapInventario inventario)
-        {
-            new DAOAdmin().ActualizarInventario(inventario);
         }
 
         //METODOS PARA MISION VISION OBJETIVO 
@@ -94,10 +68,48 @@ namespace LogicaNegocio
         }
 
 
-        //LISTOOOOOSS-----------------------------------------------------------
+        //METODO PARA INSERTAR EMPLEADO
+        public void insertarEmpleado(UEncapUsuario empleado)
+        {
+            new DAOAdmin().InsertarEmpleado(empleado);
+
+        }
+
+        //METODO PARA OBTENER EMPLEADOS
+        public List<UEncapUsuario> obtenerEmpleados()
+        {
+            var empleados = new DAOAdmin().ObtenerEmpleados();
+            return empleados;
+        }
 
 
 
+        //METODO PARA MODIFICAR EMPLEADO 
+
+        public void actualizarEmpleado(UEncapUsuario empleado)
+        {
+            new DAOAdmin().actualizarEmpleado(empleado);
+        }
+
+        //METODO PARA CONSULTAR INVENTARIO
+        public List<UEncapInventario> ConsultarInventario()
+        {
+            var inventario = new DAOAdmin().ConsultarInventario();
+            return inventario;
+        }
+
+        //METODO PARA ACTUALIZAR EL INVENTARIO
+        public void ActualizarInventario(UEncapInventario inventario)
+        {
+            new DAOAdmin().ActualizarInventario(inventario);
+        }
+
+        //METODO PARA INSERTAR ITEM DE INVENTARIO 
+        public void insertarItem(UEncapInventario item)
+        {
+            new DAOAdmin().InsertarItem(item);
+        }
+        //ACTUALIZAR TIEMPO CARRITO
         public void ActualizarTiempoCarrito(UEncapParametros tiempo)
         {
             new DAOAdmin().ActualizarTiempoCarrito(tiempo);
@@ -108,12 +120,46 @@ namespace LogicaNegocio
             var marcas = new DAOAdmin().ColsultarMarca();
             return marcas;
         }
+
+
         //METODO PARA CONSULTAR LAS CATEGORIAS DE LOS PRODUCTOS
         public List<UEncapCategoria> ConsultarCategoria()
         {
             var categoria = new DAOAdmin().ColsultarCategoria();
             return categoria;
         }
+
+        //METODO PARA CONSULTAR VENTAS EN HISTORIALVENTAS
+        public List<UEncapPedido> ConsultarVentas()
+        {
+            var ventas = new DAOAdmin().ConsultarVentas();
+            return ventas;
+        }
+
+        //METODO PARA CONSULTAR EMPLEADO EN HISTORIALVENTAS
+        public List<UEncapUsuario> ConsultarEmpleado()
+        {
+            var empleado = new DAOAdmin().ConsultarEmpleado();
+            return empleado;
+        }
+
+        //CONSULTAR  PEDIDO ESTADO EN HISTORIAL PEDIDOS
+        public List<UEncapPedido> ConsultarPedidosEstado(int est)
+        {
+            var estado = new DAOAdmin().ConsultarPedidosEstado(est);
+            return estado;
+        }
+
+        //CONSULTAR PEDIDOS EN HISTORIAL PEDIDOS 
+        public List<UEncapPedido> ConsultarPedidos()
+        {
+            var pedido = new DAOAdmin().ConsultarPedidos();
+            return pedido;
+        }
+        //LISTOOOOOSS-----------------------------------------------------------
+
+
+
 
         //metodo para consultar si la referencia existe
         public bool consultarReferencia( UEncapInventario referencia)
@@ -131,25 +177,11 @@ namespace LogicaNegocio
 
             return respuesta;
         }
-        //METODO PARA INSERTAR ITEM DE INVENTARIO 
-        public void insertarItem(UEncapInventario item)
-        {
-            new DAOAdmin().InsertarItem(item);
-        }
+     
 
 
-        //METODO PARA CONSULTAR EMPLEADO EN HISTORIALVENTAS
-        public List<UEncapUsuario> ConsultarEmpleado()
-        {
-            var empleado = new DAOAdmin().ConsultarEmpleado();
-            return empleado;
-        }
-        //METODO PARA CONSULTAR VENTAS EN HISTORIALVENTAS
-        public List<UEncapPedido> ConsultarVentas()
-        {
-            var ventas = new DAOAdmin().ConsultarVentas();
-            return ventas;
-        }
+        
+ 
         //METODO PARA CONSULTAR VENTAS_DIA EN HISTORIAL VENTAS
         public List<UEncapPedido> ConsultarVentasDia(int dia)
         {
@@ -204,12 +236,10 @@ namespace LogicaNegocio
             return ventasanomes;
         }
 
-        //CONSULTAR  PEDIDO ESTADO EN HISTORIAL PEDIDOS
-        public List<UEncapPedido> ConsultarPedidosEstado(int est)
-        {
-            var estado = new DAOAdmin().ConsultarPedidosEstado(est);
-            return estado;
-        }
+
+
+
+        
 
         //CONSULTAR  ESTADO PEDIDO EN HISTORIAL PEDIDOS
         public List<UEncapEstadoPedido> ConsultarEstadoPedidos()
@@ -218,12 +248,6 @@ namespace LogicaNegocio
             return estado;
         }
 
-        //CONSULTAR PEDIDOS EN HISTORIAL PEDIDOS 
-        public List<UEncapPedido> ConsultarPedidos()
-        {
-            var pedido = new DAOAdmin().ConsultarPedidos();
-            return pedido;
-        }
 
         //METODO PARA CONSULTAR ALERTAS
         public List<UEncapInventario> ConsultarAlertas()
@@ -245,12 +269,7 @@ namespace LogicaNegocio
             return empleados;
         }
 
-        //METODO PARA CONSULTAR INVENTARIO
-        public List<UEncapInventario> ConsultarInventario()
-        {
-            var inventario = new DAOAdmin().ConsultarInventario();
-            return inventario;
-        }
+        
 
         
 
@@ -281,33 +300,31 @@ namespace LogicaNegocio
             var categoria = new DAOAdmin().BuscarMarcaCategoria(marca, catego);
             return categoria;
         }
+
+        //METODO PARA OBETENER ROLES
         public List<UEncapRol> ObtenerRoles()
         {
             var roles = new DAOAdmin().ObtenerRoles();
             return roles;
         }
+        //METODO PARA OBTENER ESTADOS
         public List<UEncapEstado> ObtenerEstados()
         {
             var estados = new DAOAdmin().ObtenerEstados();
             return estados;
         }
+        //METODO PARA OBTENER CATEGORIAS
         public IList<UEncapCategoria> ColsultarCategoria2()
         {
             var categoria = new DAOAdmin().ColsultarCategoria2();
             return categoria;
         }
-
+        //METODO PARA OBTENER ESTADO DE LOS PRODUCTOS
         public IList<UEncapEstadoItem> ColsultarEstado()
         {
             var estado = new DAOAdmin().ColsultarEstado();
             return estado;
         }
-
-
-
-
-
-
 
     }
 }
