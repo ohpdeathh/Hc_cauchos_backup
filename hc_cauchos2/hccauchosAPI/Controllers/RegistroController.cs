@@ -6,16 +6,17 @@ using System.Net.Http;
 using System.Web.Http;
 using Utilitarios;
 using LogicaNegocio;
-
+using System.Web.Http.Cors;
 
 namespace hccauchosAPI.Controllers
 {
+    [EnableCors("*", "*", "*")]
     [RoutePrefix("api")]
     public class RegistroController : ApiController
     {
         [Route("registro")]
         [HttpPost]
-        public string Registro(UEncapUsuario usuario)
+        public string Registro([FromBody] UEncapUsuario usuario)
         {
             UEncapUsuario verificar = new UEncapUsuario();
             verificar.Correo = usuario.Correo;

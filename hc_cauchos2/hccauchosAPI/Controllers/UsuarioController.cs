@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace hccauchosAPI.Controllers
 {
-   // [Authorize(Roles = "4")]
+    [Authorize(Roles = "4")]
     [RoutePrefix("api/usuario")]
     public class UsuarioController : ApiController
     {

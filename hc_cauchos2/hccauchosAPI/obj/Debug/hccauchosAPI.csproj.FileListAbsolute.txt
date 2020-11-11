@@ -549,3 +549,6 @@ C:\Users\juan5\source\repos\hc-cauchos\Hc_cauchos_backup\hc_cauchos2\hccauchosAP
 C:\Users\juan5\source\repos\hc-cauchos\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Cors.dll
 C:\Users\juan5\source\repos\hc-cauchos\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.Cors.dll
 C:\Users\juan5\source\repos\hc-cauchos\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.Cors.xml
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Cors.dll
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.Cors.dll
+C:\Users\inge_\Desktop\proyecto\Hc_cauchos_backup\hc_cauchos2\hccauchosAPI\bin\System.Web.Http.Cors.xml
